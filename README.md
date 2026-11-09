@@ -34,4 +34,8 @@ Select **Removed** to see the removed component over time and across frequencies
 
 ## Platform and release status
 
-The development target is **Apple Silicon macOS**, with **VST3** and **AU** plug-in formats. Source code, build instructions, and release notes will follow after audio-quality and host validation are complete.
+**[Download Artifact Sweep 1.0 Preview](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** — English and Simplified Chinese **VST3 / AU** for **Apple Silicon macOS**.
+
+The downloadable installer is an early preview, not Developer ID signed or notarized. Quality matching against 0.3.5 is still in progress; some drum and full-mix passages differ, and CPU / real-time performance need further optimization. See the release notes for installation details and limitations. Future updates will continue improving the model and performance.
+
+The complete plug-in source and build instructions are not yet public. GitHub's automatic source archives currently contain the public project materials only.
