@@ -4,9 +4,9 @@
 
 > **開発プレビュー** · AI 生成音楽やデジタル処理された音源のための修復プラグイン。
 
-![減衰グラフと操作パネルを表示した Artifact Sweep の英語版画面](docs/images/artifact-sweep-en.png)
+![カラー・スペクトログラムと操作パネルを表示した Artifact Sweep の英語版画面](docs/images/artifact-sweep-spectrogram-en.png)
 
-*開発版の英語インターフェースです。グラフにはテストデータを使用しています。*
+*開発版の英語インターフェースです。カラー・スペクトログラムの Cleaned 表示にはテストデータを使用しています。*
 
 ## できること
 

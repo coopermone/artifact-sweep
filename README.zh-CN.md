@@ -4,9 +4,9 @@
 
 > **早期预告** · 面向 AI 音乐和数字处理音频的修复插件。
 
-![数字去伪影插件操作界面，显示衰减图和参数控件](docs/images/artifact-sweep-zh-cn.png)
+![数字去伪影插件的彩色声谱图及右侧参数控件](docs/images/artifact-sweep-spectrogram-zh-cn.png)
 
-*开发版操作界面，图表使用测试数据。*
+*开发版彩色声谱图。选中「去噪后声音」，图表使用测试数据。*
 
 ## 它能做什么
 

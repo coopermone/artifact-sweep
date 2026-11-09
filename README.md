@@ -4,9 +4,9 @@
 
 > **Early preview** · Audio repair for AI-generated and digitally processed music.
 
-![Artifact Sweep plug-in interface showing the reduction graph and controls](docs/images/artifact-sweep-en.png)
+![Artifact Sweep plug-in interface showing the color spectrogram and processing controls](docs/images/artifact-sweep-spectrogram-en.png)
 
-*Development interface shown with test data.*
+*Color spectrogram in the development build, showing the Cleaned view with test data.*
 
 ## What it does
 
