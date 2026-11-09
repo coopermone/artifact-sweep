@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **早期预告** · 面向 AI 音乐和数字处理音频的修复插件。
+> **1.0 公开试用版** · 面向 AI 音乐和数字处理音频的修复插件。
 
 ## 它能做什么
 
@@ -34,4 +34,8 @@
 
 ## 平台与发布状态
 
-当前开发目标是 **Apple Silicon Mac**，插件格式为 **VST3** 和 **AU**。音质和宿主验证完成后，会在这里发布源码、构建说明和版本记录。
+**[下载 Artifact Sweep 1.0 试用版](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)**：面向 **Apple Silicon Mac**，包含中英文 **VST3 / AU**。
+
+安装包已公开，尚未做 Apple Developer ID 签名和公证。与 0.3.5 的音质对齐仍在进行，部分鼓和整曲片段存在差距，CPU 与实时表现还需优化。安装方式和已知限制请查看发行说明，后续会持续发布模型和性能改进。
+
+完整插件源码及构建说明尚未公开。GitHub 自动生成的源码压缩包目前仅包含公开项目资料。
