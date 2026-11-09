@@ -1,8 +1,12 @@
-# Artifact Sweep
+<h1 align="center">Artifact Sweep</h1>
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
 > **開発プレビュー** · AI 生成音楽やデジタル処理された音源のための修復プラグイン。
+
+![減衰グラフと操作パネルを表示した Artifact Sweep の英語版画面](docs/images/artifact-sweep-en.png)
+
+*開発版の英語インターフェースです。グラフにはテストデータを使用しています。*
 
 ## できること
 

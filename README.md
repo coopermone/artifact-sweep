@@ -1,8 +1,12 @@
-# Artifact Sweep
+<h1 align="center">Artifact Sweep</h1>
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
 > **Early preview** · Audio repair for AI-generated and digitally processed music.
+
+![Artifact Sweep plug-in interface showing the reduction graph and controls](docs/images/artifact-sweep-en.png)
+
+*Development interface shown with test data.*
 
 ## What it does
 

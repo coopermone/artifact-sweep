@@ -1,8 +1,12 @@
-# Artifact Sweep · 数字去伪影
+<h1 align="center">Artifact Sweep · 数字去伪影</h1>
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
 > **早期预告** · 面向 AI 音乐和数字处理音频的修复插件。
+
+![数字去伪影插件操作界面，显示衰减图和参数控件](docs/images/artifact-sweep-zh-cn.png)
+
+*开发版操作界面，图表使用测试数据。*
 
 ## 它能做什么
 
