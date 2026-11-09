@@ -10,7 +10,7 @@ Artifact Sweep is designed to reduce gritty textures, fizz, and brittle highs th
 
 ## How it works
 
-The plug-in analyzes short slices of audio in the frequency domain. It estimates where attenuation is needed, smooths the changes over time, and reconstructs the audio. Strength, frequency focus, attack, and release let you adjust where and how quickly the processing takes effect.
+The plug-in includes an embedded AI audio model that runs locally on your computer. It analyzes short slices of audio in the frequency domain and estimates how much to attenuate each frequency band. Conventional signal processing smooths those changes over time and reconstructs the audio. Strength, frequency focus, attack, and release let you control where and how quickly processing takes effect. Audio does not need to be uploaded for processing.
 
 The development build offers three views. The reduction graph shows how much is being attenuated. The line spectrum compares the original, processed, and removed signals. The spectrogram shows where changes occur over time and across frequencies.
 
