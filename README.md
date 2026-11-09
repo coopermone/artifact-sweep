@@ -34,4 +34,4 @@ Select **Removed** to see the removed component over time and across frequencies
 
 ## Platform and release status
 
-The development target is **Apple Silicon macOS**, with **VST3** and **AU** plug-in formats. The first public build is planned with an independently developed model. Source code, build instructions, and release notes will follow after the model and host validation are ready.
+The development target is **Apple Silicon macOS**, with **VST3** and **AU** plug-in formats. Source code, build instructions, and release notes will follow after audio-quality and host validation are complete.
