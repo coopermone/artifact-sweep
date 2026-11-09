@@ -1,21 +1,25 @@
-# Artifact Sweep · 数字去伪影
+# Artifact Sweep
 
-**面向 AI 音乐和数字音频的修复插件。** 用来减轻生成、音源分离和数字处理后出现的毛刺、沙粒感和发刺的高频，尽量保留鼓点、人声细节和乐器尾音。
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-Artifact Sweep is an audio restoration plug-in in development for AI-generated and digitally processed music. It targets brittle highs, grain and fizz left by generation or source separation.
+> **Early preview** · Audio repair for AI-generated and digitally processed music.
 
-## 它怎么处理
+## What it does
 
-插件把声音拆成短时频谱，估计各频段需要衰减多少，再把处理后的频谱合成回音频。可以按频段调整处理重点，并控制强度、启动与释放速度，让衰减跟着声音变化。
+Artifact Sweep is designed to reduce gritty textures, fizz, and brittle highs that can linger after music generation, stem separation, or digital processing. It gives you control over the amount of repair while helping retain drum attacks, vocal detail, and instrument decay.
 
-开发版有三种观察方式。衰减图看处理量，折线频谱对照原声、处理后和被移除的成分，彩色声谱图看这些变化出现在什么时间和频率。还可以用「旁路」对比，或用「只听噪音」单独听被移除的成分。
+## How it works
 
-## 在宿主里怎么用
+The plug-in analyzes short slices of audio in the frequency domain. It estimates where attenuation is needed, smooths the changes over time, and reconstructs the audio. Strength, frequency focus, attack, and release let you adjust where and how quickly the processing takes effect.
 
-将插件加到需要修复的音轨，循环播放问题最明显的一段。逐步增加处理强度，再打开「只听噪音」。如果被移除的成分里出现明显的人声、鼓点或乐器细节，就调低强度，或提高对应的保护。当前开发目标是 Apple Silicon Mac，支持 VST3 和 AU。
+The development build offers three views. The reduction graph shows how much is being attenuated. The line spectrum compares the original, processed, and removed signals. The spectrogram shows where changes occur over time and across frequencies.
 
-## 发布状态 · Early preview
+## How to use it
 
-这个仓库目前是项目预告。首个公开版本将使用独立开发的模型。模型和宿主验证完成后，会在这里发布源码、构建说明和版本记录。
+1. Insert the plug-in on the track you want to repair and loop a passage where the artifacts are easy to hear.
+2. Raise **Strength** gradually and toggle **Bypass** to compare.
+3. Use **Noise only** to hear what is being removed. If you hear too much voice, percussion, or instrument detail, lower the strength or adjust the protection controls.
 
-This repository is an early project preview. Source code and build instructions will follow after the independently developed model and host validation are ready.
+## Platform and release status
+
+The development target is **Apple Silicon macOS**, with **VST3** and **AU** plug-in formats. The first public build is planned with an independently developed model. Source code, build instructions, and release notes will follow after the model and host validation are ready.
