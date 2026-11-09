@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **Early preview** · Audio repair for AI-generated and digitally processed music.
+> **Version 1.0 — available now** · Audio repair for AI-generated and digitally processed music.
 
 ## What it does
 
@@ -12,7 +12,7 @@ Artifact Sweep is designed to reduce gritty textures, fizz, and brittle highs th
 
 The plug-in includes an embedded AI audio model that runs locally on your computer. It analyzes short slices of audio in the frequency domain and estimates how much to attenuate each frequency band. Conventional signal processing smooths those changes over time and reconstructs the audio. Strength, frequency focus, attack, and release let you control where and how quickly processing takes effect. Audio does not need to be uploaded for processing.
 
-The development build offers three views. The reduction graph shows how much is being attenuated. The line spectrum compares the original, processed, and removed signals. The spectrogram shows where changes occur over time and across frequencies.
+The plug-in offers three views. The reduction graph shows how much is being attenuated. The line spectrum compares the original, processed, and removed signals. The spectrogram shows where changes occur over time and across frequencies.
 
 ### Cleaned spectrogram
 
@@ -34,8 +34,8 @@ Select **Removed** to see the removed component over time and across frequencies
 
 ## Platform and release status
 
-**[Download Artifact Sweep 1.0 Preview](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** — English and Simplified Chinese **VST3 / AU** for **Apple Silicon macOS**.
+**[Download Artifact Sweep 1.0](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** — English and Simplified Chinese **VST3 / AU** for **Apple Silicon macOS**.
 
-The downloadable installer is an early preview, not Developer ID signed or notarized. Quality matching against 0.3.5 is still in progress; some drum and full-mix passages differ, and CPU / real-time performance need further optimization. See the release notes for installation details and limitations. Future updates will continue improving the model and performance.
+The installer is not Developer ID signed or notarized. Quality matching against 0.3.5 is still in progress; some drum and full-mix passages differ, and CPU / real-time performance need further optimization. See the release notes for installation details and limitations. Future updates will continue improving the model and performance.
 
 The complete plug-in source and build instructions are not yet public. GitHub's automatic source archives currently contain the public project materials only.
