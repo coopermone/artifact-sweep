@@ -67,11 +67,15 @@ Download **Artifact-Sweep-1.1.pkg** from the [release Assets](https://github.com
 
 The installer is **not Developer ID signed or notarized**; macOS may display a warning or block it. Do not disable system-wide security protections. Keep an existing working version if you need to compare releases.
 
-## Current validation and ongoing work
+## What changed in 1.1
 
-The English and Chinese plug-ins passed native VST3 and Audio Unit checks. In 1.1, output moved closer to the 0.3.5 reference on seven of eight natural excerpts, with the clearest gains on drums and a full-mix excerpt. Some synthetic tests and the full-song preservation score declined slightly.
+Version 1.1 updates the local artifact-removal model and extends training to cover the start of an audio passage. It retains the same controls and English and Simplified Chinese VST3 / AU editions as 1.0.
 
-CPU load and real-time performance need further optimization. Four-instance Ableton performance has not been established for this packaged model; older performance results should not be treated as measurements of 1.1. Future updates will focus on sound quality, efficient inference and host stability.
+```mermaid
+flowchart LR
+    A["1.0 · First release"] --> B["1.1 · Updated local model"]
+    B --> C["Training includes passage starts"]
+```
 
 ## Project and source status
 
