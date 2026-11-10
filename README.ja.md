@@ -2,9 +2,9 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI・デジタル音声のアーティファクト除去** · 1.0 公開中。
+> **AI・デジタル音声のアーティファクト除去** · 1.1 公開中。
 
-**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** · 英語・簡体字中国語 UI · VST3 / AU
+**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 英語・簡体字中国語 UI · VST3 / AU
 
 ## デジタル処理された音楽のために
 
@@ -51,7 +51,7 @@ Strength は全体の処理量、周波数フォーカスは処理を重点的�
 
 ![Artifact Sweep の除去成分のスペクトログラム](docs/images/artifact-sweep-removed.png)
 
-画像は従来の操作画面を示しています。1.0 も同じコントロール配置を使用します。
+画像は従来の操作画面を示しています。1.1 も同じコントロール配置を使用します。
 
 ## 基本的な使い方
 
@@ -63,15 +63,15 @@ Strength は全体の処理量、周波数フォーカスは処理を重点的�
 
 ## ダウンロードとインストール
 
-1.0 は **Apple Silicon Mac** 用の英語・簡体字中国語 **VST3 / AU** を収録しています。Intel Mac / Windows 版は含まれません。
+1.1 は **Apple Silicon Mac** 用の英語・簡体字中国語 **VST3 / AU** を収録しています。Intel Mac / Windows 版は含まれません。
 
-[リリースの Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1) から **Artifact-Sweep-1.0-candidate.pkg** をダウンロードしてください。DAW を終了してからインストールし、再起動・再スキャン後に **Artifact Sweep** または **Artifact Sweep CN** を選びます。
+[リリースの Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0) から **Artifact-Sweep-1.1.pkg** をダウンロードしてください。DAW を終了してからインストールし、再起動・再スキャン後に **Artifact Sweep** または **Artifact Sweep CN** を選びます。
 
 インストーラーは **Developer ID 署名・公証が未実施**のため、macOS が警告を表示したり実行をブロックしたりする場合があります。システム全体のセキュリティ保護を無効にしないでください。比較が必要な場合は、既存の動作するバージョンを保管してください。
 
 ## 検証状況と今後の改善
 
-パッケージ内の英語・中国語プラグインは、ビルド、ネイティブプラグイン、Audio Unit のチェックを通過しています。1.0 の学生モデルは従来の 0.3.5 を基準に改善中で、一部のドラムやミックスでは減衰量と細部の保持に差があります。同等の音質はまだ確認されていません。
+英語・中国語プラグインは VST3 と Audio Unit の動作確認を通過しました。1.1 は自然音源 8 区間中 7 区間で 0.3.5 の出力に近づき、ドラムとミックスの一部で差が縮まりました。一部の合成テストと楽曲全体の原音保持指標はわずかに低下しました。
 
 CPU 負荷とリアルタイム性能も改善を続けます。このモデルの Ableton 4インスタンス動作は未検証で、旧版の性能結果をそのまま適用できません。今後は音質、推論効率、ホストでの安定性を改善します。
 
