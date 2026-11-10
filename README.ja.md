@@ -4,8 +4,6 @@
 
 > **AI・デジタル音声のアーティファクト除去** · 1.1 公開中。
 
-**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 英語・簡体字中国語 UI · VST3 / AU
-
 ## デジタル処理された音楽のために
 
 Artifact Sweep は、AI 音楽生成、ステム分離、デジタル処理のあとに残るざらつきや耳につく高域などを抑える音声修復プラグインです。処理量と保護設定を調整し、ドラムの立ち上がり、ボーカルの細部、楽器の余韻をできるだけ残せるように設計しています。
@@ -80,3 +78,5 @@ CPU 負荷とリアルタイム性能も改善を続けます。このモデル�
 インストーラーは公開済みです。完全なプラグインのソースコードとビルド手順はまだ公開していません。GitHub の自動生成 ZIP / TAR は、現時点では公開プロジェクト資料のみを含みます。
 
 不具合は [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) へ、ホスト名、サンプルレート、バッファーサイズ、プラグインのバージョンを添えて報告してください。
+
+**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 英語・簡体字中国語 UI · VST3 / AU
