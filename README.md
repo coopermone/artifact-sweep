@@ -2,9 +2,9 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI & digital artifact removal** · Version 1.0 is available.
+> **AI & digital artifact removal** · Version 1.1 is available.
 
-**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** · English & Simplified Chinese · VST3 / AU
+**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · English & Simplified Chinese · VST3 / AU
 
 ## Designed for digitally processed music
 
@@ -51,7 +51,7 @@ Select **Removed** to inspect the removed component. To hear it on its own, enab
 
 ![Removed-component spectrogram from Artifact Sweep](docs/images/artifact-sweep-removed.png)
 
-The screenshots show the established interface; the downloaded 1.0 build uses the same control layout.
+The screenshots show the established interface; the downloaded 1.1 build uses the same control layout.
 
 ## A practical starting workflow
 
@@ -63,17 +63,17 @@ The screenshots show the established interface; the downloaded 1.0 build uses th
 
 ## Download and install
 
-Version 1.0 includes English and Simplified Chinese **VST3 / Audio Unit** plug-ins for **Apple Silicon Mac**. Intel Mac and Windows builds are not included.
+Version 1.1 includes English and Simplified Chinese **VST3 / Audio Unit** plug-ins for **Apple Silicon Mac**. Intel Mac and Windows builds are not included.
 
-Download **Artifact-Sweep-1.0-candidate.pkg** from the [release Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1). Quit your DAW, run the installer, then reopen the host and rescan plug-ins. Select **Artifact Sweep** or **Artifact Sweep CN**.
+Download **Artifact-Sweep-1.1.pkg** from the [release Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0). Quit your DAW, run the installer, then reopen the host and rescan plug-ins. Select **Artifact Sweep** or **Artifact Sweep CN**.
 
 The installer is **not Developer ID signed or notarized**; macOS may display a warning or block it. Do not disable system-wide security protections. Keep an existing working version if you need to compare releases.
 
 ## Current validation and ongoing work
 
-The packaged English and Chinese plug-ins have passed build, native plug-in and Audio Unit checks. The 1.0 student model is still being refined against the earlier 0.3.5 reference: some drum and full-mix passages differ in attenuation and detail preservation. Equivalent sound quality has not been established.
+The English and Chinese plug-ins passed native VST3 and Audio Unit checks. In 1.1, output moved closer to the 0.3.5 reference on seven of eight natural excerpts, with the clearest gains on drums and a full-mix excerpt. Some synthetic tests and the full-song preservation score declined slightly.
 
-CPU load and real-time performance need further optimization. Four-instance Ableton performance has not been established for this packaged model; older performance results should not be treated as measurements of 1.0. Future updates will focus on sound quality, efficient inference and host stability.
+CPU load and real-time performance need further optimization. Four-instance Ableton performance has not been established for this packaged model; older performance results should not be treated as measurements of 1.1. Future updates will focus on sound quality, efficient inference and host stability.
 
 ## Project and source status
 
