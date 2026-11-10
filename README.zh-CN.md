@@ -2,9 +2,9 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI 与数字音频去伪影** · 1.0 已发布。
+> **AI 与数字音频去伪影** · 1.1 已发布。
 
-**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)** · 中英文界面 · VST3 / AU
+**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 中英文界面 · VST3 / AU
 
 ## 为数字处理后的音乐而设计
 
@@ -51,7 +51,7 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ![Artifact Sweep 被移除成分的彩色声谱图](docs/images/artifact-sweep-removed.png)
 
-截图展示既有操作界面；下载的 1.0 沿用相同的控制布局。
+截图展示既有操作界面；下载的 1.1 沿用相同的控制布局。
 
 ## 建议使用流程
 
@@ -63,15 +63,15 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ## 下载与安装
 
-1.0 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
+1.1 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
 
-在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v1.0.0-preview.1)下载 **Artifact-Sweep-1.0-candidate.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
+在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)下载 **Artifact-Sweep-1.1.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
 
 安装包**尚未进行 Apple Developer ID 签名及公证**，macOS 可能弹出提示或阻止安装。不要关闭系统级安全保护；需要版本对照时，请保留已有可用版本。
 
 ## 当前验证与持续更新
 
-打包的中英文插件已通过构建、原生插件和 Audio Unit 检查。1.0 学生模型仍在与此前 0.3.5 参考版本进行对照优化：部分鼓和整曲片段在衰减量与细节保留上仍存在差距，尚未证明音质完全齐平。
+中英文插件均已通过原生 VST3 和 Audio Unit 检查。1.1 在八个自然片段中有七个输出更接近 0.3.5，鼓和整曲片段改善最明显。部分合成测试和整曲原声保留指标略降。
 
 CPU 占用与实时性能还需优化。本安装包所用模型尚未完成 Ableton 四实例性能验收，不能直接套用旧版本的性能结果。之后将持续改进音质、推理效率与宿主稳定性。
 
