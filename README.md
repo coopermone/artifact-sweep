@@ -4,8 +4,6 @@
 
 > **AI & digital artifact removal** · Version 1.1 is available.
 
-**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · English & Simplified Chinese · VST3 / AU
-
 ## Designed for digitally processed music
 
 Artifact Sweep is an audio repair plug-in for the gritty textures, fizz, and brittle highs that can remain after AI music generation, stem separation, or digital processing. Adjustable repair strength and protection controls help you balance artifact reduction with drum attacks, vocal detail, and instrument decay.
@@ -80,3 +78,5 @@ CPU load and real-time performance need further optimization. Four-instance Able
 The installer is publicly available. The complete plug-in source and build instructions are not yet public. GitHub's automatic source ZIP / TAR archives currently contain the public project materials, not the complete software source.
 
 For feedback, use [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) and include your host, sample rate, buffer size and plug-in version.
+
+**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · English & Simplified Chinese · VST3 / AU
