@@ -4,8 +4,6 @@
 
 > **AI 与数字音频去伪影** · 1.1 已发布。
 
-**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 中英文界面 · VST3 / AU
-
 ## 为数字处理后的音乐而设计
 
 Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和数字处理后可能留下的毛刺、沙粒感、杂散纹理与刺耳高频。通过可调处理强度和细节保护，在减少伪影的同时尽量保留鼓点、人声细节及乐器尾音。
@@ -80,3 +78,5 @@ CPU 占用与实时性能还需优化。本安装包所用模型尚未完成 Abl
 软件安装包已公开。完整插件源码和构建说明尚未公开；GitHub 自动生成的源码 ZIP / TAR 压缩包目前仅包含公开项目资料，并非完整的软件源码。
 
 欢迎通过 [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) 反馈，附上宿主、采样率、缓冲区大小和插件版本，方便复现问题。
+
+**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 中英文界面 · VST3 / AU
