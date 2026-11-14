@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI・デジタル音声のアーティファクト除去** · 1.1 公開中。
+> **AI・デジタル音声のアーティファクト除去** · 1.2 公開中。
 
 ## デジタル処理された音楽のために
 
@@ -49,7 +49,7 @@ Strength は全体の処理量、周波数フォーカスは処理を重点的�
 
 ![Artifact Sweep の除去成分のスペクトログラム](docs/images/artifact-sweep-removed.png)
 
-画像は従来の操作画面を示しています。1.1 も同じコントロール配置を使用します。
+画像は従来の操作画面を示しています。1.2 も同じコントロール配置を使用します。
 
 ## 基本的な使い方
 
@@ -61,19 +61,19 @@ Strength は全体の処理量、周波数フォーカスは処理を重点的�
 
 ## ダウンロードとインストール
 
-1.1 は **Apple Silicon Mac** 用の英語・簡体字中国語 **VST3 / AU** を収録しています。Intel Mac / Windows 版は含まれません。
+1.2 は **Apple Silicon Mac** 用の英語・簡体字中国語 **VST3 / AU** を収録しています。Intel Mac / Windows 版は含まれません。
 
-[リリースの Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0) から **Artifact-Sweep-1.1.pkg** をダウンロードしてください。DAW を終了してからインストールし、再起動・再スキャン後に **Artifact Sweep** または **Artifact Sweep CN** を選びます。
+[リリースの Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0) から **Artifact-Sweep-1.2-macOS-arm64.pkg** をダウンロードしてください。DAW を終了してからインストールし、再起動・再スキャン後に **Artifact Sweep** または **Artifact Sweep CN** を選びます。
 
 インストーラーは **Developer ID 署名・公証が未実施**のため、macOS が警告を表示したり実行をブロックしたりする場合があります。システム全体のセキュリティ保護を無効にしないでください。比較が必要な場合は、既存の動作するバージョンを保管してください。
 
-## 1.1 の変更点
+## 1.2 の変更点
 
-1.1 ではローカルのアーティファクト除去モデルを更新し、音声区間の冒頭も学習対象に加えました。1.0 の操作画面を引き継ぎ、英語・簡体字中国語の VST3 と AU を提供します。
+1.2 では、ローカルの修復モデルの低域処理を調整しました。操作画面とプラグイン形式は 1.1 を引き継ぎます。複雑なミックスの低域処理は引き続き改善中です。
 
 ```mermaid
 flowchart LR
-    A["1.0 · 初回リリース"] --> B["1.1 · ローカルモデルを更新"]
+    A["1.0 · 初回リリース"] --> B["1.1 · ローカルモデルを更新"] --> C["1.2 · 低域処理の調整"]
     B --> C["音声区間の冒頭を学習対象に追加"]
 ```
 
@@ -83,4 +83,4 @@ flowchart LR
 
 不具合は [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) へ、ホスト名、サンプルレート、バッファーサイズ、プラグインのバージョンを添えて報告してください。
 
-**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 英語・簡体字中国語 UI · VST3 / AU
+**[Apple Silicon Mac 版をダウンロード](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)** · 英語・簡体字中国語 UI · VST3 / AU
