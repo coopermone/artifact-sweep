@@ -73,8 +73,7 @@ Version 1.2 refines the on-device restoration model’s low-frequency processing
 
 ```mermaid
 flowchart LR
-    A["1.0 · First release"] --> B["1.1 · Updated local model"] --> C["1.2 · Low-frequency refinement"]
-    B --> C["Training includes passage starts"]
+    V10["1.0 · First release"] --> V11["1.1 · Model update for passage starts"] --> V12["1.2 · Low-frequency refinement"]
 ```
 
 ## Project and source status
