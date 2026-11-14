@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI 与数字音频去伪影** · 1.1 已发布。
+> **AI 与数字音频去伪影** · 1.2 已发布。
 
 ## 为数字处理后的音乐而设计
 
@@ -49,7 +49,7 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ![Artifact Sweep 被移除成分的彩色声谱图](docs/images/artifact-sweep-removed.png)
 
-截图展示既有操作界面；下载的 1.1 沿用相同的控制布局。
+截图展示既有操作界面；下载的 1.2 沿用相同的控制布局。
 
 ## 建议使用流程
 
@@ -61,19 +61,19 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ## 下载与安装
 
-1.1 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
+1.2 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
 
-在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)下载 **Artifact-Sweep-1.1.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
+在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)下载 **Artifact-Sweep-1.2-macOS-arm64.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
 
 安装包**尚未进行 Apple Developer ID 签名及公证**，macOS 可能弹出提示或阻止安装。不要关闭系统级安全保护；需要版本对照时，请保留已有可用版本。
 
-## 1.1 更新了什么
+## 1.2 更新了什么
 
-相比 1.0，1.1 更新了本地去伪影模型，并在训练中补充了音频片段起始段。操作界面延续 1.0 的布局，提供中英文 VST3 和 AU。
+1.2 细化了本地修复模型的低频处理，沿用 1.1 的操作布局和插件格式。复杂混音的低频处理仍在优化。
 
 ```mermaid
 flowchart LR
-    A["1.0 · 首次发布"] --> B["1.1 · 更新本地模型"]
+    A["1.0 · 首次发布"] --> B["1.1 · 更新本地模型"] --> C["1.2 · 细化低频处理"]
     B --> C["训练覆盖音频片段起始段"]
 ```
 
@@ -83,4 +83,4 @@ flowchart LR
 
 欢迎通过 [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) 反馈，附上宿主、采样率、缓冲区大小和插件版本，方便复现问题。
 
-**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · 中英文界面 · VST3 / AU
+**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)** · 中英文界面 · VST3 / AU
