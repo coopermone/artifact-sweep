@@ -2,7 +2,11 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI 与数字音频去伪影** · 1.2 已发布。
+## 庆祝🎉2.0发布
+
+**Artifact Sweep 的音频修复核心迎来重要升级！** 🧠 2.0 更新内置音频模型，解决了 1.2 在本轮对照测试中遗留的鼓、吉他与复杂混音差距。🎧 从片段直接起播、连续播放进入片段，两种情况都完成了复测，重点改善此前随播放状态出现的少削与多削问题。
+
+🌈 用彩色声谱图观察处理前后，打开**只听噪音**，听清每一处被移除的成分。🎛️ 熟悉的按钮、操作布局和保护控制继续保留，让你在原有工作流里体验这次核心升级。音频处理始终在本地完成。
 
 ## 为数字处理后的音乐而设计
 
@@ -49,7 +53,7 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ![Artifact Sweep 被移除成分的彩色声谱图](docs/images/artifact-sweep-removed.png)
 
-截图展示既有操作界面；下载的 1.2 沿用相同的控制布局。
+截图展示既有操作界面；下载的 2.0 沿用相同的控制布局。
 
 ## 建议使用流程
 
@@ -61,19 +65,28 @@ Artifact Sweep 是一款音频修复插件，针对 AI 音乐生成、分轨和�
 
 ## 下载与安装
 
-1.2 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
+2.0 包含适用于 **Apple Silicon Mac** 的中英文 **VST3 / AU** 插件，不包含 Intel Mac 或 Windows 版本。
 
-在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)下载 **Artifact-Sweep-1.2-macOS-arm64.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
+在[发行页的 Assets 附件区](https://github.com/coopermone/artifact-sweep/releases/tag/v2.0.0)下载 **Artifact-Sweep-2.0-macOS-arm64.pkg**。退出宿主后安装，重新打开宿主并扫描插件，选择 **Artifact Sweep** 或 **Artifact Sweep CN**。
 
 安装包**尚未进行 Apple Developer ID 签名及公证**，macOS 可能弹出提示或阻止安装。不要关闭系统级安全保护；需要版本对照时，请保留已有可用版本。
 
-## 1.2 更新了什么
+## 🚀 从 1.2 到 2.0，提升在哪里
 
-1.2 细化了本地修复模型的低频处理，沿用 1.1 的操作布局和插件格式。复杂混音的低频处理仍在优化。
+| 项目 | 1.2 | 2.0 |
+| --- | --- | --- |
+| 🥁 鼓与 🎸 吉他 | 部分片段仍未通过固定音频对照门槛。 | 本轮鼓与吉他对照检查全部通过。 |
+| 🎧 复杂混音 | 低频移除波形仍有偏差。 | 重点混音二片段与整曲检查均通过。 |
+| ▶️ 播放状态 | 直接起播与连续播放出现不同偏差。 | 覆盖无前文、125、500、1,000、2,000 毫秒前置音频的检查。 |
+| 🌈 操作体验 | 三种分析图表和完整修复控制。 | 保留相同布局和控制，更新核心模型。 |
+
+同一段重点混音中，被移除波形相对固定验收目标的余弦相似度，从 **1.2 的 0.9272 提升至 2.0 的 0.9999 以上**。这个数字表示已测素材与固定目标的一致程度，不是噪声去除百分比，也不是适用于所有音乐的听感评分。后续会继续扩大音乐素材与宿主测试覆盖。
 
 ```mermaid
 flowchart LR
-    V10["1.0 · 首次发布"] --> V11["1.1 · 更新模型，训练覆盖片段开头"] --> V12["1.2 · 细化低频处理"]
+    V12["1.2 · 细化低频处理"] --> V20["🎉 2.0 · 修复核心升级"]
+    V20 --> Audio["🥁 🎸 🎧 本轮音频检查全通过"]
+    V20 --> Playback["▶️ 直接起播与连续播放已验证"]
 ```
 
 ## 项目与源码状态
@@ -82,4 +95,4 @@ flowchart LR
 
 欢迎通过 [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) 反馈，附上宿主、采样率、缓冲区大小和插件版本，方便复现问题。
 
-**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)** · 中英文界面 · VST3 / AU
+**[下载 Apple Silicon Mac 版本](https://github.com/coopermone/artifact-sweep/releases/tag/v2.0.0)** · 中英文界面 · VST3 / AU
