@@ -84,6 +84,8 @@ On the same difficult mix excerpt, removed-waveform cosine similarity to our fix
 
 ```mermaid
 flowchart LR
+    V10["1.0 · First release"] --> V11["1.1 · Model update for passage starts"]
+    V11 --> V12
     V12["1.2 · Low-frequency refinement"] --> V20["🎉 2.0 · Updated restoration core"]
     V20 --> Audio["🥁 🎸 🎧 Current audio checks pass"]
     V20 --> Playback["▶️ Direct and continuous playback verified"]
