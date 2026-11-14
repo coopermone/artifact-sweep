@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-> **AI & digital artifact removal** · Version 1.1 is available.
+> **AI & digital artifact removal** · Version 1.2 is available.
 
 ## Designed for digitally processed music
 
@@ -49,7 +49,7 @@ Select **Removed** to inspect the removed component. To hear it on its own, enab
 
 ![Removed-component spectrogram from Artifact Sweep](docs/images/artifact-sweep-removed.png)
 
-The screenshots show the established interface; the downloaded 1.1 build uses the same control layout.
+The screenshots show the established interface; the downloaded 1.2 build uses the same control layout.
 
 ## A practical starting workflow
 
@@ -61,19 +61,19 @@ The screenshots show the established interface; the downloaded 1.1 build uses th
 
 ## Download and install
 
-Version 1.1 includes English and Simplified Chinese **VST3 / Audio Unit** plug-ins for **Apple Silicon Mac**. Intel Mac and Windows builds are not included.
+Version 1.2 includes English and Simplified Chinese **VST3 / Audio Unit** plug-ins for **Apple Silicon Mac**. Intel Mac and Windows builds are not included.
 
-Download **Artifact-Sweep-1.1.pkg** from the [release Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0). Quit your DAW, run the installer, then reopen the host and rescan plug-ins. Select **Artifact Sweep** or **Artifact Sweep CN**.
+Download **Artifact-Sweep-1.2-macOS-arm64.pkg** from the [release Assets](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0). Quit your DAW, run the installer, then reopen the host and rescan plug-ins. Select **Artifact Sweep** or **Artifact Sweep CN**.
 
 The installer is **not Developer ID signed or notarized**; macOS may display a warning or block it. Do not disable system-wide security protections. Keep an existing working version if you need to compare releases.
 
-## What changed in 1.1
+## What changed in 1.2
 
-Version 1.1 updates the local artifact-removal model and extends training to cover the start of an audio passage. It retains the same controls and English and Simplified Chinese VST3 / AU editions as 1.0.
+Version 1.2 refines the on-device restoration model’s low-frequency processing. The control layout and available plug-in formats carry forward from 1.1. Low-end restoration on dense mixes remains an area of active development.
 
 ```mermaid
 flowchart LR
-    A["1.0 · First release"] --> B["1.1 · Updated local model"]
+    A["1.0 · First release"] --> B["1.1 · Updated local model"] --> C["1.2 · Low-frequency refinement"]
     B --> C["Training includes passage starts"]
 ```
 
@@ -83,4 +83,4 @@ The installer is publicly available. The complete plug-in source and build instr
 
 For feedback, use [GitHub Issues](https://github.com/coopermone/artifact-sweep/issues) and include your host, sample rate, buffer size and plug-in version.
 
-**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.1.0)** · English & Simplified Chinese · VST3 / AU
+**[Download for Apple Silicon Mac](https://github.com/coopermone/artifact-sweep/releases/tag/v1.2.0)** · English & Simplified Chinese · VST3 / AU
